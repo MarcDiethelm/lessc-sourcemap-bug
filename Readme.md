@@ -15,7 +15,7 @@ This is a real-world scenario that has cost me many, many hours of frustration. 
 statements. It's superior than using concatenation or maintaining a cascade of imports by hand, because it is generated
 using globbing to look for files that need to be imported.
 
-However it turns out that if the generated file is not in the same location as the files it is importing than the
+However it turns out that if the generated file uses `../` to reach the files it is importing than the
 resulting source map will be broken, i.e. containing absolute paths.
 
 I have tried to remedy this by using the available source map options, but no cigar.
