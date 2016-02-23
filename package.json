@@ -1,0 +1,14 @@
+{
+  "name": "lessc-sourcemap-bug",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "lessc --source-map ./build/less-imports.less ./build/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "less": ">=2.6.0"
+  }
+}
